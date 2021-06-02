@@ -19,7 +19,7 @@ class MeetingMinute(models.Model):
     meetingattendance=models.ManyToManyField(User)
     meetingminutes=models.TextField()
 
-    def __str__(self):
+    def __int__(self):
         return self.meetingid
 
     class Meta:
