@@ -2,11 +2,11 @@
 {% block content %}
 <h2>Meeting Detail</h2>
 {% for m in meeting %}
-<p>Meeting Title: {{meeting.meetingtitle}<br/>
-Meeting Date: {{meeting.meetingdate}}<br/>
-Meeting Time: {{meeting.meetingtime}}<br/>
-Meeting Location: {{meeting.location}}<br/>
-Meeting Agenda: {{meeting.agenda}}<br/>
+<p>Meeting Title: {{m.meetingtitle}<br/>
+Meeting Date: {{m.meetingdate}}<br/>
+Meeting Time: {{m.meetingtime}}<br/>
+Meeting Location: {{m.location}}<br/>
+Meeting Agenda: {{m.agenda}}<br/>
 {% endfor %}
 </p>
 
